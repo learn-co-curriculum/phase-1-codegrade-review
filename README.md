@@ -87,6 +87,44 @@ CodeGrade**:
 
 ## Troubleshooting
 
+Errors and mistakes can happen, and this section will cover some common ones. If
+your problem is not listed here, please check with an instructor or technical
+coach for guidance.
+
+#### I accidentally connected the wrong repository! How do I remove it and connect the correct one?
+
+Currently, there is no way to directly remove a submission or overwrite one in
+CodeGrade. However, it is still removable via GitHub with the following steps:
+
+![Gif showing the process of deleting a CodeGrade deploy key](https://imgur.com/bUB2dkM.gif)
+
+1. Go to the repository you accidentally connected to CodeGrade.
+
+   - Make sure you're in your forked version of the repo. Check this by looking
+     for your username in the top left.
+
+1. Go to the Settings tab, it should be on the far right.
+1. On the settings page, go down to the "Security" section of the sidebar.
+1. Click on the "Deploy keys" link.
+1. Delete the CodeGrade Deploy key.
+
+If you have multiple CodeGrade Deploy keys because you've submitted the repo
+before, find the right one by checking the date the keys were added on.
+
+![Deploy keys highlighting that the dates they were added are different](https://curriculum-content.s3.amazonaws.com/phase-1/codegrade-review/deploy-key-diff-date.png)
+
+If both keys were added on the same day, the key at the bottom of the list is
+typically the latest addition.
+
+![Deploy keys highlighting that the dates are the same, and that the last key on the list is the most recently added](https://curriculum-content.s3.amazonaws.com/phase-1/codegrade-review/deploy-key-same-date.png)
+
+After you've successfully deleted the deploy key, go back through the submission
+process again and be sure to connect the correct repo!
+
+> **Note**: When you first go back through the submission process, the incorrect
+> repo will still be under the "Latest Submissions". It will be overridden once
+> you submit a new repo.
+
 ## Conclusion
 
 A short one or two paragraph summary of the contents of the lessons, recapping
