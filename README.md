@@ -91,12 +91,12 @@ Errors and mistakes can happen, and this section will cover some common ones. If
 your problem is not listed here, please check with an instructor or technical
 coach for guidance.
 
-#### I accidentally connected the wrong repository! How do I remove it and connect the correct one?
+### I accidentally connected the wrong repository! How do I remove it and connect the correct one?
 
 Currently, there is no way to directly remove a submission or overwrite one in
 CodeGrade. However, it is still removable via GitHub with the following steps:
 
-![Gif showing the process of deleting a CodeGrade deploy key](https://imgur.com/bUB2dkM.gif)
+![Gif showing the process of deleting a CodeGrade deploy key](https://imgur.com/OCK3r3r.gif)
 
 1. Go to the repository you accidentally connected to CodeGrade.
 
@@ -122,8 +122,20 @@ After you've successfully deleted the deploy key, go back through the submission
 process again and be sure to connect the correct repo!
 
 > **Note**: When you first go back through the submission process, the incorrect
-> repo will still be under the "Latest Submissions". It will be overridden once
-> you submit a new repo.
+> repo will still be under the "Latest Submissions". That is OK - it will be
+> overridden once you submit a new repo.
+
+### I refreshed the CodeGrade page and it's asking me to log back in. What are my account details to log in?
+
+If you don't remember creating a username and password for CodeGrade, that's
+because you did not. To access CodeGrade, you must always do so from Canvas.
+
+To get back to the submission page for a specific assignment, return to the
+assignment on Canvas and click on the "Load" button at the bottom of the page
+again. If the button is not there due to being clicked once before, refresh the
+Canvas page and it should reappear.
+
+![Gif demonstrating the login bug when refreshing CodeGrade, then shows reopening the CodeGrade interface through Canvas](https://imgur.com/ccWeiDT.gif)
 
 ## Conclusion
 
