@@ -113,7 +113,7 @@ Once you're on the page, you'll notice it consists of three different views:
 
 Let's go over each one.
 
-![Screenshot of the "Code" view]()
+![Screenshot of the "Code" view](https://curriculum-content.s3.amazonaws.com/phase-1/codegrade-review/code-view.png)
 
 The "Code" view displays all of your code. It brings in all the files from the
 GitHub repo you connected. You can use the file explorer to view all your files.
@@ -123,6 +123,8 @@ Additionally, you can add comments on your files while on this view. If there
 was a part of your code that you couldn't get working, for example, you could
 add a comment on that specific line explaining what you tried or what confused
 you. The gif below demonstrates how to add a comment:
+
+![Adding a comment to a specific line of a file in the Code view](https://imgur.com/wgWwAcq.gif)
 
 > **Note**: Responses to your comments are not immediate nor guaranteed as those
 > are _not_ automated like tests and require manual input.
@@ -134,7 +136,7 @@ you. The gif below demonstrates how to add a comment:
 In cases where you _do_ get responses, however, you would see them on the second
 view - the "Feedback Overview".
 
-![Screenshot of the "Feedback Overview" view]()
+![Screenshot of the "Feedback Overview" view](https://curriculum-content.s3.amazonaws.com/phase-1/codegrade-review/feedback-view.png)
 
 This view is where you can view all the comments you left, as well as any
 responses or general feedback your instructors have left for you. You can also
@@ -144,7 +146,7 @@ any feedback received as well, though we only recommend doing so when necessary.
 The view you will likely look at the most, however, is the last one: the
 "AutoTest" view.
 
-![Screenshot of the AutoTest view]()
+![Screenshot of the AutoTest view](https://curriculum-content.s3.amazonaws.com/phase-1/codegrade-review/autotest-view.png)
 
 If all you want to know is whether or not you passed an assignment, that is
 immediately viewable in the table under the "Categories" section. As long as the
@@ -158,7 +160,7 @@ You can tell if the AutoTest is not finished yet by looking at the status box on
 the right side of the "Setup" bar. If it says anything but "Done", the tests are
 still being run. The gif below shows an example.
 
-![Gif of the Setup status box]()
+![Gif of the Setup status box](https://imgur.com/FCXMmnN.gif)
 
 Once the AutoTest finishes, you should see your score out of 100%, and either a
 checkmark or an "X" under the "Pass" column.
@@ -166,7 +168,7 @@ checkmark or an "X" under the "Pass" column.
 You can see more details about the tests by clicking on the row. This will
 display what tests you have passed.
 
-![Gif clicking on a row and displaying more info on the tests]()
+![Gif clicking on a row and displaying more info on the tests](https://imgur.com/HZNa5Fu.gif)
 
 > **Note**: Your grades on this view should _not_ be a surprise. The AutoTest
 > uses the same tests you should be running as you work on the assignment. As
