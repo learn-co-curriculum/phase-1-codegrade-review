@@ -4,11 +4,14 @@
 
 - Review how to submit an assignment in CodeGrade
 - Navigate around CodeGrade
+- Troubleshoot common errors while navigating CodeGrade
 
 ## Introduction
 
 This program utilizes a tool called CodeGrade to accept and automatically grade
-your work.
+your work. Like any tool, it can take some time to get used to. This lesson will
+walk you through using the tool and help troubleshoot some common problems you
+may come across while using it.
 
 ## Submitting an Assignment
 
@@ -83,7 +86,96 @@ CodeGrade**:
 
 ## The Submission Page
 
+The submission page is where you can see CodeGrade automatically grade your
+assignment by running the same tests you run while completing the lab.
+
+There are two ways to navigate to this page.
+
+![The submission success message with a redirect link](https://curriculum-content.s3.amazonaws.com/phase-1/codegrade-review/submission-redirect.png)
+
+1. Right after submitting an assignment, click on the redirect link in the
+   submission sucess message ("here").
+
+![Gif demonstrating reopening CodeGrade and clicking the Latest Submission button](https://imgur.com/NCv3o04.gif)
+
+2. Any time after submitting an assignment, go back to the assignment you want
+   to view this page for on Canvas, click on the "Load" button at the bottom of
+   the page to open the CodeGrade interface, then click on the "Latest
+   Submission" button.
+
+Once you're on the page, you'll notice it consists of three different views:
+
+![The three submission page tabs - Code, Feedback Overview, AutoTest](https://curriculum-content.s3.amazonaws.com/phase-1/codegrade-review/submission-page-views.png)
+
+1. Code
+1. Feedback Overview
+1. AutoTest
+
+Let's go over each one.
+
+![Screenshot of the "Code" view]()
+
+The "Code" view displays all of your code. It brings in all the files from the
+GitHub repo you connected. You can use the file explorer to view all your files.
+Here is where you can make sure you submitted the correct repo.
+
+Additionally, you can add comments on your files while on this view. If there
+was a part of your code that you couldn't get working, for example, you could
+add a comment on that specific line explaining what you tried or what confused
+you. The gif below demonstrates how to add a comment:
+
+> **Note**: Responses to your comments are not immediate nor guaranteed as those
+> are _not_ automated like tests and require manual input.
+>
+> We generally recommend utilizing the technical coaches or working with your
+> peers for any assignment questions you have that are necessary for your
+> fundamental understanding.
+
+In cases where you _do_ get responses, however, you would see them on the second
+view - the "Feedback Overview".
+
+![Screenshot of the "Feedback Overview" view]()
+
+This view is where you can view all the comments you left, as well as any
+responses or general feedback your instructors have left for you. You can also
+manage your comments here, such as deleting or editing them. You can reply to
+any feedback received as well, though we only recommend doing so when necessary.
+
+The view you will likely look at the most, however, is the last one: the
+"AutoTest" view.
+
+![Screenshot of the AutoTest view]()
+
+If all you want to know is whether or not you passed an assignment, that is
+immediately viewable in the table under the "Categories" section. As long as the
+"Pass" column has a green checkmark, that means you passed the assignment!
+
+If you go to this view immediately after submitting an assignment, however, that
+checkmark may not be there yet. This is because CodeGrade has to get set up
+before running the AutoTest.
+
+You can tell if the AutoTest is not finished yet by looking at the status box on
+the right side of the "Setup" bar. If it says anything but "Done", the tests are
+still being run. The gif below shows an example.
+
+![Gif of the Setup status box]()
+
+Once the AutoTest finishes, you should see your score out of 100%, and either a
+checkmark or an "X" under the "Pass" column.
+
+You can see more details about the tests by clicking on the row. This will
+display what tests you have passed.
+
+![Gif clicking on a row and displaying more info on the tests]()
+
+> **Note**: Your grades on this view should _not_ be a surprise. The AutoTest
+> uses the same tests you should be running as you work on the assignment. As
+> long as you've passed all the tests while working locally, they should pass on
+> CodeGrade too.
+
 ## Seeing your Grades
+
+tba
 
 ## Troubleshooting
 
